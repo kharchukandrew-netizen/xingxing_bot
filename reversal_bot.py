@@ -20,7 +20,7 @@ PUSHOVER_API_TOKEN = os.getenv("PUSHOVER_API_TOKEN", "YOUR_PUSHOVER_API_TOKEN")
 # Only allow your Telegram user ID (set after first /start)
 ALLOWED_USER_ID = os.getenv("ALLOWED_USER_ID", "")  # Your Telegram user ID
 
-CHECK_INTERVAL = 30  # seconds between price checks
+CHECK_INTERVAL = 10  # seconds between price checks
 DATA_FILE = "tokens_data.json"
 
 # ============ GLOBAL STATE ============
